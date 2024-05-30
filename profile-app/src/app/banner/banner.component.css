@@ -5,3 +5,72 @@
     height: 74px;
     position: absolute;
   }
+
+  .laptop-hire-me-button {
+    gap: 20px;
+    top: 493px;
+    left: 85.5px;
+    width: 126px;
+    height: 44px;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+    white-space: nowrap;
+  }
+  .laptop-download-cv-button {
+    gap: 20px;
+    top: 493px;
+    left: 800px;
+    width: 180px;
+    height: 44px;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+    white-space: nowrap;
+  }
+
+  .laptop-profile {
+    top: 220px;
+    left: 342px;
+    width: 398.7679443359375px;
+    height: 398.7679443359375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    white-space: nowrap;
+  }
+  .laptop-ellipse1 {
+    top: 0px;
+    left: 0px;
+    width: 399px;
+    height: 399px;
+    position: absolute;
+  }
+  .laptop-ellipse2 {
+    top: 20.9877872467041px;
+    left: 20.9877872467041px;
+    width: 359px;
+    height: 359px;
+    position: absolute;
+  }
+
+  .laptop-nameandjobtitle {
+    top: 633px;
+    left: 356px;
+    width: 316px;
+    height: 88px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    white-space: nowrap;
+  }

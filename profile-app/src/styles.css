@@ -2,14 +2,22 @@
 :host { 
     display: contents; 
   }
+
   .laptop-container {
-    width: 100%;
     display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
   }
+    
+  .button, .image, .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .laptop-laptop {
     width: 100%;
     height: 2634px;
@@ -1181,27 +1189,8 @@
     color: rgba(0, 0, 0, 1);
     text-decoration: NONE;
   }
-  .laptop-socialmedia1 {
-    top: 398.375px;
-    left: 791.875px;
-    width: 191px;
-    height: 74px;
-    position: absolute;
-  }
-  .laptop-hire-me-button {
-    gap: 20px;
-    top: 493px;
-    left: 85.5px;
-    width: 126px;
-    height: 44px;
-    display: flex;
-    padding: 20px;
-    position: absolute;
-    align-items: center;
-    flex-shrink: 0;
-    justify-content: center;
-    background-color: rgba(240, 53, 53, 1);
-  }
+
+  
   .laptop-text109 {
     color: rgba(248, 245, 245, 1);
     height: auto;
@@ -1214,20 +1203,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .laptop-download-cv-button {
-    gap: 20px;
-    top: 493px;
-    left: 825px;
-    width: 153px;
-    height: 44px;
-    display: flex;
-    padding: 20px;
-    position: absolute;
-    align-items: center;
-    flex-shrink: 0;
-    justify-content: center;
-    background-color: rgba(240, 53, 53, 1);
-  }
+  
   .laptop-text111 {
     color: rgba(248, 245, 245, 1);
     height: auto;
@@ -1240,16 +1216,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .laptop-nameandjobtitle {
-    top: 633px;
-    left: 356px;
-    width: 316px;
-    height: 88px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
+  
   .laptop-name1 {
     gap: 4px;
     top: 0px;
@@ -1306,95 +1273,5 @@
     width: 1053px;
     height: 364px;
     position: absolute;
-  }
-  .laptop-profile {
-    top: 220px;
-    left: 342px;
-    width: 398.7679443359375px;
-    height: 398.7679443359375px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .laptop-ellipse1 {
-    top: 0px;
-    left: 0px;
-    width: 399px;
-    height: 399px;
-    position: absolute;
-  }
-  .laptop-ellipse2 {
-    top: 20.9877872467041px;
-    left: 20.9877872467041px;
-    width: 359px;
-    height: 359px;
-    position: absolute;
-  }
-  .laptop-navbar {
-    top: 29px;
-    left: 651px;
-    width: 375.5px;
-    height: 27px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-    margin-right: 10px;
-  }
-  .laptop-text117 {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 27px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Karantina;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .laptop-text119 {
-    left: 74.25px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 27px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Karantina;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .laptop-text121 {
-    left: 202.5px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 27px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Karantina;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .laptop-text123 {
-    left: 310.5px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 27px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Karantina;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
   }
   

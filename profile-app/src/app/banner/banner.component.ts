@@ -13,4 +13,8 @@ import { Component, OnInit } from '@angular/core';
       this.profile_bg ='/assets/bg2826-9rnl-400h.png'   
     }
 
+    btnFn(){
+      alert('Alert');
+    }
+
   }
