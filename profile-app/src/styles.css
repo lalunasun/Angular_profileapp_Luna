@@ -1,0 +1,1400 @@
+/* You can add global styles to this file, and also import other style files */
+:host { 
+    display: contents; 
+  }
+  .laptop-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .laptop-laptop {
+    width: 100%;
+    height: 2634px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .laptop-footer {
+    top: 2189px;
+    left: -34px;
+    width: 1073px;
+    height: 452px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+  }
+  .laptop-contact-form {
+    top: 24px;
+    left: 291px;
+    width: 600px;
+    height: 356.521728515625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .laptop-text {
+    top: 2.17389178276062px;
+    left: 200px;
+    color: rgba(63, 63, 63, 1);
+    height: auto;
+    position: absolute;
+    font-size: 28.260868072509766px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-frame1 {
+    gap: 21.7391300201416px;
+    top: 28.260848999023438px;
+    left: 2.17391300201416px;
+    width: 256px;
+    height: 73.91304016113281px;
+    display: flex;
+    padding: 21.7391300201416px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+  .laptop-text002 {
+    color: rgba(63, 63, 63, 1);
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-msgtextbox {
+    gap: 4.34782600402832px;
+    top: 221.04345703125px;
+    left: 287px;
+    width: 282.60870361328125px;
+    height: 102.17391204833984px;
+    display: flex;
+    padding: 21.7391300201416px 0 21.7391300201416px 21.7391300201416px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-text004 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-rectangle19 {
+    width: 250px;
+    height: 24px;
+    box-sizing: content-box;
+    border-color: rgba(63, 63, 63, 0.3199999928474426);
+    border-style: solid;
+    border-width: 0 0 1.08695650100708px;
+  }
+  .laptop-emailinfo {
+    gap: 4.34782600402832px;
+    top: 242.78271484375px;
+    left: 604.3912963867188px;
+    width: 282.60870361328125px;
+    height: 91.3043441772461px;
+    display: flex;
+    padding: 10.8695650100708px 0 21.7391300201416px 21.7391300201416px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-text006 {
+    color: rgba(63, 63, 63, 1);
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text008 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-phoneinfo {
+    gap: 4.34782600402832px;
+    top: 148.95654296875px;
+    left: 604.3912963867188px;
+    width: 282.60870361328125px;
+    height: 91.3043441772461px;
+    display: flex;
+    padding: 10.8695650100708px 0 21.7391300201416px 21.7391300201416px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-text010 {
+    color: rgba(63, 63, 63, 1);
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text012 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-emailinput {
+    gap: 5.260869026184082px;
+    top: 202.260498046875px;
+    left: 308.7391357421875px;
+    width: 247.82608032226562px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-email {
+    gap: 13.152172088623047px;
+    display: flex;
+    padding: 10.521738052368164px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(218, 218, 218, 1);
+    border-style: solid;
+    border-width: 1.3152172565460205px;
+    border-radius: 5.260869026184082px;
+    background-color: var(--dl-color-default-white);
+  }
+  .laptop-text014 {
+    color: var(--dl-color-default-lightgray);
+    height: auto;
+    flex-grow: 1;
+    font-size: 15.782607078552246px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-subjectinput {
+    gap: 5.260869026184082px;
+    top: 152.956298828125px;
+    left: 308.7391357421875px;
+    width: 247.82608032226562px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-subject {
+    gap: 13.152172088623047px;
+    display: flex;
+    padding: 10.521738052368164px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(218, 218, 218, 1);
+    border-style: solid;
+    border-width: 1.3152172565460205px;
+    border-radius: 5.260869026184082px;
+    background-color: var(--dl-color-default-white);
+  }
+  .laptop-text016 {
+    color: var(--dl-color-default-lightgray);
+    height: auto;
+    flex-grow: 1;
+    font-size: 15.782607078552246px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-nameinput {
+    gap: 5.260869026184082px;
+    top: 101.478271484375px;
+    left: 308.7391357421875px;
+    width: 247.82608032226562px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-name {
+    gap: 13.152172088623047px;
+    display: flex;
+    padding: 10.521738052368164px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(218, 218, 218, 1);
+    border-style: solid;
+    border-width: 1.3152172565460205px;
+    border-radius: 5.260869026184082px;
+    background-color: var(--dl-color-default-white);
+  }
+  .laptop-text018 {
+    color: var(--dl-color-default-lightgray);
+    height: auto;
+    flex-grow: 1;
+    font-size: 15.782607078552246px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-submit-button {
+    gap: 21.7391300201416px;
+    top: 321.04345703125px;
+    left: 308.7391357421875px;
+    width: 104.34782409667969px;
+    height: 34.78260803222656px;
+    display: flex;
+    padding: 21.7391300201416px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+  }
+  .laptop-text020 {
+    color: rgba(248, 245, 245, 1);
+    height: auto;
+    font-size: 26.086956024169922px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .laptop-addressinfo {
+    gap: 4.34782600402832px;
+    top: 51.2607421875px;
+    left: 604.3912963867188px;
+    width: 282.60870361328125px;
+    height: 91.3043441772461px;
+    display: flex;
+    padding: 21.7391300201416px 0 21.7391300201416px 21.7391300201416px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-text022 {
+    color: rgba(63, 63, 63, 1);
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text024 {
+    color: rgba(0, 0, 0, 1);
+    width: 315px;
+    height: auto;
+    font-size: 17.39130401611328px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-education {
+    top: 1960px;
+    left: 98px;
+    width: 1048.9884033203125px;
+    height: 164.96511840820312px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    justify-content: flex-start;
+  }
+  .laptop-rectangle15 {
+    top: 52.2041015625px;
+    left: 167.0533447265625px;
+    width: 528px;
+    height: 113px;
+    position: absolute;
+    border-radius: 4.176333904266357px;
+  }
+  .laptop-rectangle16 {
+    top: 52.2041015625px;
+    left: 0px;
+    width: 240px;
+    height: 113px;
+    position: absolute;
+    border-radius: 4.176333904266357px;
+  }
+  .laptop-rectangle17 {
+    top: 52px;
+    left: 695px;
+    width: 150px;
+    height: 113px;
+    position: absolute;
+    border-radius: 4.176333904266357px;
+  }
+  .laptop-text026 {
+    left: 297px;
+    color: rgba(0, 0, 0, 1);
+    width: 338px;
+    bottom: 29px;
+    height: auto;
+    position: absolute;
+    font-size: 12.529001235961914px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text034 {
+    top: 62.44091796875px;
+    left: 710.705322265625px;
+    color: rgb(0, 0, 0);
+    width: 338px;
+    height: auto;
+    position: absolute;
+    font-size: 12.529px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text042 {
+    left: 8.3526611328125px;
+    color: rgba(63, 63, 63, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 27.146169662475586px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text044 {
+    top: 64.733154296875px;
+    left: 10.44085693359375px;
+    color: rgba(0, 0, 0, 1);
+    width: 338px;
+    height: auto;
+    position: absolute;
+    font-size: 12.529001235961914px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-experiences {
+    top: 1355px;
+    left: 82px;
+    width: 900px;
+    height: 605.3571166992188px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .laptop-rectangle5 {
+    top: 72.32144927978516px;
+    left: 208.92857360839844px;
+    width: 683px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-rectangle6 {
+    top: 72.32144927978516px;
+    left: 5.6843418860808015e-14px;
+    width: 262px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-rectangle7 {
+    top: 243.75001525878906px;
+    left: 208.92857360839844px;
+    width: 683px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-rectangle8 {
+    top: 243.75001525878906px;
+    left: 5.6843418860808015e-14px;
+    width: 262px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-rectangle9 {
+    top: 423.21429443359375px;
+    left: 208.92857360839844px;
+    width: 683px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-rectangle10 {
+    top: 423.21429443359375px;
+    left: 5.6843418860808015e-14px;
+    width: 262px;
+    height: 145px;
+    position: absolute;
+    border-radius: 5.357142925262451px;
+  }
+  .laptop-text052 {
+    color: rgba(63, 63, 63, 1);
+    width: 418px;
+    height: auto;
+    position: absolute;
+    font-size: 29.46428680419922px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text054 {
+    top: 72.32144927978516px;
+    left: 286.6071472167969px;
+    color: rgba(0, 0, 0, 1);
+    width: 249px;
+    height: auto;
+    position: absolute;
+    font-size: 21.428571701049805px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text056 {
+    top: 107.14287567138672px;
+    left: 16.071428298950195px;
+    color: rgba(0, 0, 0, 1);
+    width: 437px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text062 {
+    top: 286.6071472167969px;
+    left: 16.071428298950195px;
+    color: rgba(0, 0, 0, 1);
+    width: 241px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text066 {
+    top: 468.7500305175781px;
+    left: 16.071428298950195px;
+    color: rgba(0, 0, 0, 1);
+    width: 386px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text070 {
+    top: 115.1785888671875px;
+    left: 283.9285583496094px;
+    color: rgba(0, 0, 0, 1);
+    width: 541px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text072 {
+    top: 230.35716247558594px;
+    left: 281.25px;
+    color: rgba(0, 0, 0, 1);
+    width: 426px;
+    height: auto;
+    position: absolute;
+    font-size: 21.428571701049805px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text074 {
+    top: 270.5357360839844px;
+    left: 278.5714416503906px;
+    color: rgba(63, 63, 63, 1);
+    width: 621px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text076 {
+    top: 417.8571472167969px;
+    left: 286.6071472167969px;
+    color: rgba(0, 0, 0, 1);
+    width: 249px;
+    height: auto;
+    position: absolute;
+    font-size: 21.428571701049805px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text078 {
+    top: 455.3571472167969px;
+    left: 283.9285583496094px;
+    color: rgba(63, 63, 63, 1);
+    width: 608px;
+    height: auto;
+    position: absolute;
+    font-size: 16.071428298950195px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-skill {
+    top: 1164px;
+    left: 77px;
+    width: 896px;
+    height: 181px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .laptop-rectangle151 {
+    top: 51px;
+    left: 0px;
+    width: 896px;
+    height: 130px;
+    position: absolute;
+    border-radius: 5.325443744659424px;
+  }
+  .laptop-text082 {
+    left: 5.428434371948242px;
+    color: rgba(63, 63, 63, 1);
+    width: 423px;
+    height: auto;
+    position: absolute;
+    font-size: 29.289939880371094px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-aboutme {
+    top: 753.5970458984375px;
+    left: 64px;
+    width: 900px;
+    height: 378.6024169921875px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 1;
+    justify-content: flex-start;
+  }
+  .laptop-rectangle152 {
+    top: 51.9266242980957px;
+    left: 0px;
+    width: 900px;
+    height: 314px;
+    position: absolute;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2.6865668296813965px;
+    border-radius: 5.373133659362793px;
+  }
+  .laptop-text084 {
+    top: -0.000023685284759267233px;
+    left: 13.235292434692383px;
+    color: rgba(63, 63, 63, 1);
+    width: 172px;
+    height: auto;
+    position: absolute;
+    font-size: 29.552234649658203px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text086 {
+    top: 57.4029541015625px;
+    left: 442px;
+    color: rgba(63, 63, 63, 1);
+    width: 172px;
+    height: auto;
+    position: absolute;
+    font-size: 29.552234649658203px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-basic-info {
+    top: 146.4029541015625px;
+    left: 421px;
+    width: 454px;
+    height: 173.13558959960938px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .laptop-table {
+    display: flex;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px;
+    border-radius: 3.8474574089050293px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .laptop-age {
+    width: 453.9999694824219px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.00009999999747378752);
+  }
+  .laptop-age1 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.05999999865889549);
+  }
+  .laptop-content {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-right: 13px;
+  }
+  .laptop-text088 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-cell {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.05999999865889549);
+  }
+  .laptop-content01 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text090 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-email1 {
+    width: 453.9999694824219px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.00009999999747378752);
+  }
+  .laptop-email2 {
+    width: 243px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content02 {
+    width: 212px;
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text091 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-cell1 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content03 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text093 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-phone {
+    width: 453.9999694824219px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.00009999999747378752);
+  }
+  .laptop-cell2 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content04 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text094 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-cell3 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content05 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text096 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-address {
+    width: 453.9999694824219px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.00009999999747378752);
+  }
+  .laptop-cell4 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content06 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text097 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-cell5 {
+    width: 203px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content07 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text099 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-lan {
+    width: 453.9999694824219px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.00009999999747378752);
+  }
+  .laptop-cell6 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content08 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text100 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-cell7 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(185, 185, 185, 1);
+    border-style: solid;
+    border-width: 0.9618643522262573px 0 0 0.9618643522262573px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.0020000000949949026);
+  }
+  .laptop-content09 {
+    display: flex;
+    padding: 9.618643760681152px 11.54237174987793px;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .laptop-text102 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 11.54237174987793px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text103 {
+    left: 40px;
+    color: rgba(0, 0, 0, 1);
+    width: 350px;
+    bottom: 44px;
+    height: auto;
+    position: absolute;
+    font-size: 16.014362335205078px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text104 {
+    font-weight: 700;
+  }
+  .laptop-text105 {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: NONE;
+  }
+  .laptop-text107 {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: NONE;
+  }
+  .laptop-socialmedia1 {
+    top: 398.375px;
+    left: 791.875px;
+    width: 191px;
+    height: 74px;
+    position: absolute;
+  }
+  .laptop-hire-me-button {
+    gap: 20px;
+    top: 493px;
+    left: 85.5px;
+    width: 126px;
+    height: 44px;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+  }
+  .laptop-text109 {
+    color: rgba(248, 245, 245, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-download-cv-button {
+    gap: 20px;
+    top: 493px;
+    left: 825px;
+    width: 153px;
+    height: 44px;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(240, 53, 53, 1);
+  }
+  .laptop-text111 {
+    color: rgba(248, 245, 245, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-nameandjobtitle {
+    top: 633px;
+    left: 356px;
+    width: 316px;
+    height: 88px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .laptop-name1 {
+    gap: 4px;
+    top: 0px;
+    left: 0px;
+    width: 316px;
+    display: flex;
+    padding: 0 42px;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .laptop-text113 {
+    color: rgba(63, 62, 62, 1);
+    width: 174px;
+    height: auto;
+    font-size: 40px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kameron;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text115 {
+    color: rgba(116, 114, 114, 1);
+    width: 276px;
+    height: auto;
+    font-size: 26px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Kantumruy;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-header {
+    top: 0px;
+    left: -29px;
+    width: 1053px;
+    height: 352px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .laptop-bg {
+    top: 0px;
+    left: 0px;
+    width: 1053px;
+    height: 364px;
+    position: absolute;
+  }
+  .laptop-profile {
+    top: 220px;
+    left: 342px;
+    width: 398.7679443359375px;
+    height: 398.7679443359375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .laptop-ellipse1 {
+    top: 0px;
+    left: 0px;
+    width: 399px;
+    height: 399px;
+    position: absolute;
+  }
+  .laptop-ellipse2 {
+    top: 20.9877872467041px;
+    left: 20.9877872467041px;
+    width: 359px;
+    height: 359px;
+    position: absolute;
+  }
+  .laptop-navbar {
+    top: 29px;
+    left: 651px;
+    width: 375.5px;
+    height: 27px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-right: 10px;
+  }
+  .laptop-text117 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 27px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text119 {
+    left: 74.25px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 27px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text121 {
+    left: 202.5px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 27px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .laptop-text123 {
+    left: 310.5px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 27px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Karantina;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

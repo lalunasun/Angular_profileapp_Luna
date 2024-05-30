@@ -1,0 +1,10 @@
+.laptop-navbar {
+    top: 29px;
+    left: 651px;
+    width: 375.5px;
+    height: 27px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }

@@ -1,0 +1,14 @@
+.laptop-socialmedia {
+    top: 375.391357421875px;
+    left: 478.3043212890625px;
+    width: 183px;
+    height: 59px;
+    position: absolute;
+  }
+
+  .laptop-footer {
+    display: block;  
+    visibility: visible;  
+    height: 50px;  
+    background-color: #ccc;
+  }

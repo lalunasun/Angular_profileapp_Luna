@@ -1,0 +1,18 @@
+:host {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar is above other content */
+  }
+
+  @media (max-width: 600px) {
+    .laptop-navbar a {
+      margin-right: -10px;
+      padding: 5px 5px;
+      justify-content: space-between; 
+    }
+  }
+
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
