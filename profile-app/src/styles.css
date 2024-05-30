@@ -2,6 +2,19 @@
 :host { 
     display: contents; 
   }
+  <!--new-->
+  body,
+    html {
+    background-color:beige;
+    }
+  <!--end-->
+
+
+hr {
+  height: 10px;
+  color: #fff;
+}
+
 
   .laptop-container {
     display: flex;
@@ -474,16 +487,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .laptop-experiences {
-    top: 1355px;
-    left: 82px;
-    width: 900px;
-    height: 605.3571166992188px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
+
   .laptop-rectangle5 {
     top: 72.32144927978516px;
     left: 208.92857360839844px;

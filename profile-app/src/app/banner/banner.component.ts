@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { first, last } from 'rxjs';
 
   @Component({
     selector: 'app-banner',
@@ -7,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   })
   export class BannerComponent implements OnInit {
     profile_bg:string='';
+    user={
+      first_name: 'Luna',
+      last_name:'Sun',
+      jobtitle:'Front-end Devloper',
+      avatar:'/assets/bg2826-9rnl-400h.png',
+      avatar_profile:'/assets/ellipse12826-po3l-400h.png',
+      avatar_profile_bg:'/assets/ellipse22826-try8-400h.png',
+    }
     constructor() { }
 
     ngOnInit() {
-      this.profile_bg ='/assets/bg2826-9rnl-400h.png'   
+ 
     }
 
     btnFn(){
