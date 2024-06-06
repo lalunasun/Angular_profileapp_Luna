@@ -23,7 +23,7 @@ import { first, last } from 'rxjs';
     }
 
     btnFn(){
-      alert('Alert');
+      alert('Hi~~~');
     }
 
   }

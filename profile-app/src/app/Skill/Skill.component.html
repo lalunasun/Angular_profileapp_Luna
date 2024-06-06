@@ -5,4 +5,20 @@
     class="laptop-rectangle151"
   />
   <span class="laptop-text082"><span>Skills</span></span>
+
+<!---copy list demo-->
+<div class="p-3">
+
+  <ul class="list-group">
+    <li *ngFor="let item of items" class="list-group-item"> {{item.name}} </li>
+  </ul>
+
+  <button  (click)="addLanguage()"  type="button"   class="mx-2 my-2 btn btn-primary" >
+  Add 
+  </button>
+  
+</div>
+<!---end copy-->
+
+
 </div>

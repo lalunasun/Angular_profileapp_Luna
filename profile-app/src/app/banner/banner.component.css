@@ -2,14 +2,19 @@
 .laptop-header {
   max-width: 75%;
   display: flexbox;
-  margin: 10px auto;
+  margin: 70px auto;
 }
 
 .laptop-header, .laptop-profile, .laptop-nameandjobtitle {
   display: flex;
+  text-align: center; 
   justify-content: center;  /* 水平居中 */
   align-items: center;      /* 垂直居中 */
   position: relative; /* 确保可以使用 z-index */
+}
+.laptop-nameandjobtitle {
+  display: flex;
+  flex-direction: column; /* 确保子元素垂直排列 */
 }
 
 .background-image {
